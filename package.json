@@ -1,0 +1,19 @@
+{
+  "name": "moviebuff",
+  "version": "1.0.0",
+  "description": "A simple web app that returns suggested movies based on the actor or actress you search for! This was a group project built in a day at Enspiral Dev Academy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahmona-henry/MovieBuff.git"
+  },
+  "author": "eda group project",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahmona-henry/MovieBuff/issues"
+  },
+  "homepage": "https://github.com/rahmona-henry/MovieBuff#readme"
+}
