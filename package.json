@@ -2,7 +2,7 @@
   "name": "moviebuff",
   "version": "1.0.0",
   "description": "A simple web app that returns suggested movies based on the actor or actress you search for! This was a group project built in a day at Enspiral Dev Academy.",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/rahmona-henry/MovieBuff/issues"
   },
-  "homepage": "https://github.com/rahmona-henry/MovieBuff#readme"
+  "homepage": "https://github.com/rahmona-henry/MovieBuff#readme",
+  "dependencies": {
+    "budo": "^9.0.0",
+    "dotenv": "^2.0.0",
+    "jquery": "^3.1.0",
+    "superagent": "^2.2.0",
+    "tape": "^4.6.0"
+  }
 }
