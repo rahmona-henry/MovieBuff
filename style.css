@@ -1,15 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,900,300);
 
 html {
-  background:rgb(66,66,186);
+  background:#32A43C;
   max-width:100%;
   max-height:100%;
   font-family:'Roboto', sans-serif;
 }
 
 p {
-  font-weight:300;
-  color:#FFD700;
+  font-weight:400;
+  color:#ffffff;
 }
 
 #container {
@@ -51,10 +51,10 @@ p {
   width:100%;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  color: #FFD700;
+  color: #ffffff;
 }
 
 .posters {
     display: inline-block;
-    padding: 100px;  
+    padding: 100px;
 }

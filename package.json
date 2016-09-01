@@ -4,7 +4,8 @@
   "description": "A simple web app that returns suggested movies based on the actor or actress you search for! This was a group project built in a day at Enspiral Dev Academy.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"browserify main.js > bundle.js"
   },
   "repository": {
     "type": "git",
