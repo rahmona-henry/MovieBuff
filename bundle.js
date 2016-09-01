@@ -51,7 +51,7 @@ function searchActor() {
 
   function getMovieByActor(name, callback){
     name = escape(name)
-    request.get("http://api.themoviedb.org/3/search/person?api_key=842be4c1d7d5635d612fb7ae73bc734e&query=" + name)
+    request.get("https://api.themoviedb.org/3/search/person?api_key=842be4c1d7d5635d612fb7ae73bc734e&query=" + name)
       .set('Accept', 'application/json')
       .end(function(err, res){
         if (err) {
